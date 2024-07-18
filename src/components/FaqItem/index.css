@@ -1,0 +1,64 @@
+/* Write your code here. */
+.li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 15px;
+  border-color: #d7dae6;
+  width: 90%;
+  border-width: 1px;
+  border-style: solid;
+  padding-left: 30px;
+  margin: 15px;
+}
+.end {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+}
+.middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+.hr {
+  border-width: 1px;
+  width: 95%;
+  color: black;
+  margin: 20px;
+}
+.btn {
+  border: none;
+  background-color: transparent;
+}
+.img {
+  width: 30px;
+}
+.question {
+  font-size: 20px;
+  font-weight: 600;
+}
+.answer {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 767px) {
+  .answer {
+    font-size: 10px;
+    font-weight: 500;
+  }
+  .question {
+    font-size: 15px;
+  }
+  .li {
+  }
+  .hr{
+    margin:0px;
+  }
+}
